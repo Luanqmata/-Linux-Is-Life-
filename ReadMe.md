@@ -1,3 +1,7 @@
+Faculdades IESGO - Prof: Weverson Medeiros 🐧
+
+4° Semestre
+
 # Anotações de Comandos Linux
 
 ## Comandos Básicos
