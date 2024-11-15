@@ -1,0 +1,52 @@
+Exemplos de conexão em cada porta:
+FTP (porta 21)
+
+bash
+Copiar código
+ftp <endereço_ip>
+SSH (porta 22)
+
+bash
+Copiar código
+ssh <endereço_ip>
+Telnet (porta 23)
+
+bash
+Copiar código
+telnet <endereço_ip> 23
+SMTP (porta 25)
+
+Para uma conexão SMTP, você pode usar o telnet na porta 25 para se comunicar com o servidor SMTP:
+
+bash
+Copiar código
+telnet <endereço_ip> 25
+MySQL (porta 3306)
+
+Para se conectar a um servidor MySQL, use o cliente mysql:
+
+bash
+Copiar código
+mysql -h <endereço_ip> -P 3306 -u <usuário> -p
+PostgreSQL (porta 5432)
+
+Para se conectar ao PostgreSQL:
+
+bash
+Copiar código
+psql -h <endereço_ip> -p 5432 -U <usuário>
+VNC (porta 5900)
+
+Conexão VNC geralmente usa o vncviewer:
+
+bash
+Copiar código
+vncviewer <endereço_ip>:5900
+HTTP (porta 80) ou HTTPS (porta 443)
+
+Use um navegador ou curl para HTTP:
+
+bash
+Copiar código
+curl http://<endereço_ip>
+Para se conectar a outras portas, você pode geralmente usar telnet, nc (netcat) ou a ferramenta específica para o serviço.
