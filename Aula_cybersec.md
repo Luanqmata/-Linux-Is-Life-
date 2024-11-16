@@ -1,4 +1,8 @@
 # Aula scan metasploit 
+# Scaneando com GreenBone
+![image](https://github.com/user-attachments/assets/f488494c-9cee-471d-af0d-4195788a186b)
+![image](https://github.com/user-attachments/assets/ce039421-c638-4f40-b6a5-833b444e32af)
+
 
 ## nmap -sV -sC -O IP :
 ![image](https://github.com/user-attachments/assets/e6c446b3-98d8-4a54-ad54-a83458d9fd83)
@@ -31,6 +35,7 @@
 ![image](https://github.com/user-attachments/assets/c1d203f3-1a65-423e-9a09-3ce5f4c6cf5f)
 
 ## Exibindo mySql
+![image](https://github.com/user-attachments/assets/c424eff7-7a11-4b9b-812d-1289e380bc04)
 ![image](https://github.com/user-attachments/assets/bf34c282-999e-4575-9857-c0b9fae745b3)
 ![image](https://github.com/user-attachments/assets/aea2511a-e09a-4e93-9b22-957e63cc7687)
 
