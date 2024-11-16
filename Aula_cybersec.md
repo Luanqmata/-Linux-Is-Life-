@@ -33,3 +33,10 @@
 ## Exibindo mySql
 ![image](https://github.com/user-attachments/assets/bf34c282-999e-4575-9857-c0b9fae745b3)
 ![image](https://github.com/user-attachments/assets/aea2511a-e09a-4e93-9b22-957e63cc7687)
+
+## Criando script e Navegando pelo URL do navegador
+![image](https://github.com/user-attachments/assets/9771f2c6-5112-43d7-8cb8-5ec016c04abf)
+![image](https://github.com/user-attachments/assets/d4045385-708a-4253-8244-193fb0a539f3)
+![image](https://github.com/user-attachments/assets/0a9cea78-c91a-4dbb-a22c-151e8306c6d6)
+![image](https://github.com/user-attachments/assets/c2d06a5d-8459-4ea5-b290-d06e74274a5c)
+
