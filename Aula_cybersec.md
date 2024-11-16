@@ -2,6 +2,7 @@
 # Scaneando com GreenBone
 ![image](https://github.com/user-attachments/assets/f488494c-9cee-471d-af0d-4195788a186b)
 ![image](https://github.com/user-attachments/assets/ce039421-c638-4f40-b6a5-833b444e32af)
+![image](https://github.com/user-attachments/assets/b7051522-95e1-45ed-baff-9333e8a57227)
 
 
 ## nmap -sV -sC -O IP :
