@@ -1,6 +1,6 @@
 Faculdades IESGO - Prof: Weverson Medeiros 🐧
 
-4° Semestre
+3° Semestre
 
 # Anotações de Comandos Linux
 
