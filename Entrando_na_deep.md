@@ -19,6 +19,7 @@ sudo netstat -nltp
 * mostra processos * porta 9050
 
 ---------- ir nas configs do firefox proxy --------------
+
 colocar em manual proxy config 
 
 Habilitar SOCKS V5
@@ -28,6 +29,7 @@ HABILITAR PROXY DNS WHEN USING SOCKS V5
 ![image](https://github.com/user-attachments/assets/d0f9c069-9710-4223-acef-29077fe12afb)
 
 -------- NAVEGAR NA WEB ULTILIZANDO DUCK DUCK GO -----------
+
 QUE NAO VAI PEDIR AS VERIFICAÇÕES 
 pesquisar whats my ip para conferir se realmente esta dando os pulos do tor 
 
