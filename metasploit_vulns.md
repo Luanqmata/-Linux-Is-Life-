@@ -1,3 +1,14 @@
+Conectando no Bd (Parte mais chata)
+
+sudo apt install postgresql postgresql-contrib
+sudo service postgresql start
+
+msfdb init
+----
+msfconsole
+db_connect msf:msf@127.0.0.1:5432/msf
+
+
 ```bash
 meu ip: 177.67.136.88
 ip kali: 172.24.49.254
