@@ -8,7 +8,11 @@ msfdb init
 msfconsole
 db_connect msf:msf@127.0.0.1:5432/msf
 
-![image](https://github.com/user-attachments/assets/982f8897-ab85-402c-9a55-758fed0e45ff)
+![image](https://github.com/user-attachments/assets/4fd6c1bb-7046-475b-aa98-4870ef157d5e)
+
+![image](https://github.com/user-attachments/assets/a7e1a171-b54a-4cfa-b625-edcb3abb0ada)
+
+![image](https://github.com/user-attachments/assets/5f82ab13-8c53-4ac1-bfc4-88fe7959647e)
 
 
 ```bash
