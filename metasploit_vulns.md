@@ -1,4 +1,4 @@
-Conectando no Bd (Parte mais chata)
+ Conectando no Bd (Parte mais chata)
 
 sudo apt install postgresql postgresql-contrib
 sudo service postgresql start
@@ -7,6 +7,8 @@ msfdb init
 ----
 msfconsole
 db_connect msf:msf@127.0.0.1:5432/msf
+
+![image](https://github.com/user-attachments/assets/982f8897-ab85-402c-9a55-758fed0e45ff)
 
 
 ```bash
