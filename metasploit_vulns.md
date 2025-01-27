@@ -14,6 +14,18 @@ db_connect msf:msf@127.0.0.1:5432/msf
 
 ![image](https://github.com/user-attachments/assets/5f82ab13-8c53-4ac1-bfc4-88fe7959647e)
 
+![image](https://github.com/user-attachments/assets/967ec4b6-3d7a-4357-9a10-85016a8a83cc)
+
+Depois de conseguir acesso como root usando o payload de:
+CRTL + Z ;
+Y ;
+
+sessions
+para acessar a sessao ;
+sessions -i 2 ;
+
+![image](https://github.com/user-attachments/assets/e4c0a2cc-9ec0-4e06-9f0f-3e3448ace42d)
+
 
 ```bash
 meu ip: 177.67.136.88
