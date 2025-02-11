@@ -21,3 +21,14 @@
 ![image](https://github.com/user-attachments/assets/75263af5-e1fe-43d5-be37-d0c1a566ef4f)
 # ( Descobrir diretorio com injeção de host php )
 ## fuzing nesses 3 caminhos : temp/portal ; temp/images ; temp/assets ;
+```.txt
+-- lista comum -- 
+ffuf -u http://10.10.199.189/temp/portal/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt -e .html,.php,.jpg,.js,.css
+ffuf -u http://10.10.199.189/temp/images/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt -e .html,.php,.jpg,.js,.css
+ffuf -u http://10.10.199.189/temp/assets/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt -e .html,.php,.jpg,.js,.css
+-- listas cabulosas --
+ffuf -u http://10.10.199.189/temp/portal/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -e .html,.php,.jpg,.js,.css
+ffuf -u http://10.10.199.189/temp/images/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-large-files.txt -e .html,.php,.jpg,.js,.css
+ffuf -u http://10.10.199.189/temp/assets/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-large-files.txt -e .html,.php,.jpg,.js,.css
+
+ ```
