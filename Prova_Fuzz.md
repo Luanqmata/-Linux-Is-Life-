@@ -16,4 +16,5 @@
 ----
 # Comando que usei para achar a flag: 
 ![image](https://github.com/user-attachments/assets/e818b708-9326-4833-a362-35cf34412b93)
+( obs : como eu sabia que estava procurando uma flag coloquei /flag no final de temp/empresa/ , e por sorte encontrei )
 ----
