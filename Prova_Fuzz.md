@@ -13,3 +13,7 @@
 # ACHEI *****
 ----
 ![image](https://github.com/user-attachments/assets/072244d4-a25d-4080-b8f7-f0f120db4b9f)
+----
+# Comando que usei para achar a flag: 
+![image](https://github.com/user-attachments/assets/e818b708-9326-4833-a362-35cf34412b93)
+----
