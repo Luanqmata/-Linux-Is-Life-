@@ -41,3 +41,6 @@ sudo dirsearch -u http://10.10.199.189/temp/assets -w /usr/share/wordlists/secli
  ```
 ----
 ![image](https://github.com/user-attachments/assets/145be49f-c64a-4ac9-8b22-a42d17fd7f71)
+### dirsearch -u http://10.10.199.189/temp/portal/nslookup/ -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -r -e php -t 50
+### dirsearch -u http://10.10.199.189/temp/portal/nslookup/ -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -r -e php,txt,log,js,css,xml,htm,jpg,png,csv,asp,jar,sql,bak,svg -t 50
+ 
