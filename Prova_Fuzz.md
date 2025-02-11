@@ -26,9 +26,16 @@
 ffuf -u http://10.10.199.189/temp/portal/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt -e .html,.php,.jpg,.js,.css
 ffuf -u http://10.10.199.189/temp/images/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt -e .html,.php,.jpg,.js,.css
 ffuf -u http://10.10.199.189/temp/assets/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt -e .html,.php,.jpg,.js,.css
+
 -- listas cabulosas --
 ffuf -u http://10.10.199.189/temp/portal/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -e .html,.php,.jpg,.js,.css
 ffuf -u http://10.10.199.189/temp/images/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-large-files.txt -e .html,.php,.jpg,.js,.css
 ffuf -u http://10.10.199.189/temp/assets/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-large-files.txt -e .html,.php,.jpg,.js,.css
+
+-- Comandos com dirsearch --
+dirsearch -u http://10.10.199.189/temp/portal -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -r -e php -t 50
+dirsearch -u http://10.10.199.189/temp/images -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -r -e php -t 50
+dirsearch -u http://10.10.199.189/temp/assets -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -r -e php -t 50
+
 
  ```
