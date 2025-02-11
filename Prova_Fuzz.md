@@ -18,3 +18,5 @@
 ![image](https://github.com/user-attachments/assets/e818b708-9326-4833-a362-35cf34412b93)
 ( obs : como eu sabia que estava procurando uma flag coloquei /flag no final de temp/empresa/ , e por sorte encontrei )
 ----
+![image](https://github.com/user-attachments/assets/75263af5-e1fe-43d5-be37-d0c1a566ef4f)
+ ( Descobrir diretorio com injeção de host php )
