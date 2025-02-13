@@ -44,4 +44,6 @@ sudo dirsearch -u http://10.10.199.189/temp/assets -w /usr/share/wordlists/secli
 ### dirsearch -u http://10.10.199.189/temp/portal/nslookup/ -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -r -e php -t 50
 ### dirsearch -u http://10.10.199.189/temp/portal/nslookup/ -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -r -e php,txt,log,js,css,xml,htm,jpg,png,csv,asp,jar,sql,bak,svg -t 50
 ![image](https://github.com/user-attachments/assets/2c82237e-b31d-40b6-8702-99df08c9c50b)
+----
+![image](https://github.com/user-attachments/assets/fef3957b-bd78-4e8f-8383-2d97e6e1e67d)
 
