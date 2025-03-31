@@ -13,6 +13,8 @@
 # osintando o site 
 ![image](https://github.com/user-attachments/assets/ad557d0e-bf01-4ea4-8948-964146e20640)
 
+
+
 # Pegando todas palavras do site para usar no dirsearch
 wget -r -l1 -H -nd -A.html http://192.168.100.190
 cat *.html | grep -oP '\w+' | sort -u > palavras.txt
@@ -112,3 +114,6 @@ The resource you are looking for might have been removed, had its name changed, 
 
 Pressione Enter para continuar...
 ```
+![image](https://github.com/user-attachments/assets/bc491d96-2634-4123-8ea3-f765a8626de6)
+## Obtive ainformação que tem um ASPnet rodando e de acordo com a analise magnam com asp net pode ter arquivo .aspx 
+
