@@ -1,6 +1,6 @@
  Conectando no Bd (Parte mais chata)
 
-sudo apt install postgresql postgresql-contrib
+sudo apt install postgresql postgresql-contrib &&
 sudo service postgresql start
 
 msfdb init
