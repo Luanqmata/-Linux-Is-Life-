@@ -10,6 +10,10 @@
 # db_nmap -sV -p 21,80,3389,8080 192.168.100.190 -Pn
 ![image](https://github.com/user-attachments/assets/cf9b9a65-b85e-47ba-8a9b-706234b47999)
 
+# msf_6 (Info_levantadas)
+
+![image](https://github.com/user-attachments/assets/49401462-af44-4521-9144-e9519cf47ce6)
+
 # osintando o site 
 ![image](https://github.com/user-attachments/assets/ad557d0e-bf01-4ea4-8948-964146e20640)
 
