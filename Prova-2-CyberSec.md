@@ -26,6 +26,7 @@ dirsearch -u http://192.168.100.190 -w palavras.txt
 
 ![image](https://github.com/user-attachments/assets/3a5ed0ec-c3e1-455c-bcea-f328a2064768)
 
+## verificando tecnologias do site 
 ![image](https://github.com/user-attachments/assets/727d7dc7-e016-429c-9da9-d5adf84ffffc)
 
 # Usando meu programa Redias win para obter informaçoes do site 
