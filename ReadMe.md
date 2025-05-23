@@ -107,7 +107,7 @@ Exemplo de permissões em octal:
 
 ### Configuração de Repositório
 
-- **Modificar `sources.list`**:
+- **Modificar `sources.list`**:  (não recomendado podendo quebrar o SO)
   - Local: `/etc/apt/sources.list`
   - Exemplo:
   ```bash
