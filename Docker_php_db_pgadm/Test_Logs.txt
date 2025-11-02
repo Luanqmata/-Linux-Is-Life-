@@ -1,0 +1,169 @@
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ docker stop $(docker ps -aq)
+2006a861cb67
+871c9b7fb4c3
+84ac82636806
+a57802f39553
+02d4fa855e88
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ docker rm $(docker ps -aq)
+2006a861cb67
+871c9b7fb4c3
+84ac82636806
+a57802f39553
+02d4fa855e88
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ docker rmi -f $(docker images -aq)
+Untagged: projeto_php_postgres-php-apache:latest
+Deleted: sha256:fefc5f640be630a78e3760bb41a47cdbca2e35a698f82bf57df3aa8f062db1b1
+Untagged: postgres:16
+Untagged: postgres@sha256:4eb532412200f7fbbf15d62ee0d96e020a9eae9eaed76066692474a7371c4d83
+Deleted: sha256:9b3d8ce33ae76b9325695049270e645268e22b6f6b5eb3f9207f65dbbda307cd
+Deleted: sha256:2dc2304025f2a0cd9160ab18e7363aacf6639fd7bacceb7fb060673bdf5f9df5
+Deleted: sha256:5efbaa30cf1d5ce45fd85e393084141cafccad4999ccd4b4657ff26aac8a0b56
+Deleted: sha256:dcfd8f173dfde00a5724cc6c855d841142e5d59ed952fc8b7a5b8d8c8d6e4316
+Deleted: sha256:9fb3fc115f04bdcf275476097b1a44f6eeee9228ac9e6c4195dc3423df037d70
+Deleted: sha256:9c3ed583fb7352fc68bd569c3393b98c9b4d062f41a852ee6e58952e6c0ece9e
+Deleted: sha256:0a3c29de49005397d5b4f9eec60969c8a5efa4e2457e4d57002027e9748a2a09
+Deleted: sha256:6c42b2c231d38214a0a5ad14da39760a04788789c0bfa5a8e261a869fc4d89b8
+Deleted: sha256:27f6484042493aaf4804dd3fd3927cb50c4bfefdfa3c96ccf279af7088b0b8cd
+Deleted: sha256:5bdb39002d05a9e9d4818890a85541affb7849d9a52dfbee84433516e489709e
+Deleted: sha256:44fd700edcf7045e5ada3773d663c2f7ef5c771c8d70006a3fa218fdcd961bdc
+Deleted: sha256:21ad32855facf2cb43a4eca53c72959f24b9cf19e11a74567aa820d215cc3313
+Deleted: sha256:1c7a2d372375f2b61b0581d46bc382fa04a32d584dab82d57dd59bb86607ebc9
+Deleted: sha256:db0b93c6d1fe367172a40da665d70e216f672d867ae7c941b6f107e48d151242
+Untagged: dpage/pgadmin4:latest
+Untagged: dpage/pgadmin4@sha256:5d9624a93634d1c5e595619cc57b1d330758120d1baf445fa97300c0c1fc3c0a
+Deleted: sha256:937d10c14821ad4be386fa64bb79b2a00acb51ec3fac7c1b4d759054109507a2
+Deleted: sha256:8a119739968c086237dc9bdb865dd7592ad9adf013e31193d6eaf4dd76a243a4
+Deleted: sha256:ca74329fb8f8c532abc67d90304789838b40ada6118b82a871c0d8800f12b9bb
+Deleted: sha256:194f6590b372bde7490f6197c9679701f59454097ef6fe4e344da45910e12cff
+Deleted: sha256:a07293ff6622f979e9cf65f6df15697d2535ec3ab29133cee5639688111f09c9
+Deleted: sha256:f8237810f5c6e8b83a7c5aab2c68f692ac2c3529074f52bc4023a1f2987c844f
+Deleted: sha256:ae59b6e05cfcc38e89b53e6e2ca58b821426145e086b3d01a59bb1434207000a
+Deleted: sha256:0e8cb76835ce24011260eed964c2c979bc96f00a3c14e6c2c510dd7369ed8fbf
+Deleted: sha256:2dd66d170946f97c5d4d23a5d38f6a1500d75557c33f03b909a28dfd8456b64c
+Deleted: sha256:806d081d4b6b93c56f16083af91facca648c866c58f2ff0788f0a789482be4a8
+Deleted: sha256:ee8dec0496a038dadffb6d93b2e082f144a816ca0a6003ff0dcc30fe41a76fbf
+Deleted: sha256:34a2c67f16ea6e07dc77cdb5c9a82dd38365dc18ca03b45f16c0c8f61c015b4e
+Deleted: sha256:7c9ea9ddac80c5d3a535ea8726f35f7ce93787dc3e65259e1393ee3778ebc484
+Deleted: sha256:7b5e4ad0cdc428c2acd4c712a0a74d581c5725097d1ed3da5e6bc41b0eda3073
+Deleted: sha256:b152ea3943cfa65935a0b0fd54e9776fb16d77eacea1d91cd51ce868ba165d0f
+Deleted: sha256:256f393e029fa2063d8c93720da36a74a032bed3355a2bc3e313ad12f8bde9d1
+Untagged: hello-world:latest
+Untagged: hello-world@sha256:56433a6be3fda188089fb548eae3d91df3ed0d6589f7c2656121b911198df065
+Deleted: sha256:1b44b5a3e06a9aae883e7bf25e45c100be0bb81a0e01b32de604f3ac44711634
+Deleted: sha256:53d204b3dc5ddbc129df4ce71996b8168711e211274c785de5e0d4eb68ec3851
+Untagged: php:8.2-apache
+Untagged: php@sha256:de205c3f48b88bf6883782f85e9b297f616813c321c4ccb6337da7f5adc1c29c
+Deleted: sha256:67820b9e4061a173e800e2709d6e6658c12cbfa9622abfcaceb744fbd280eadf
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ docker volume rm $(docker volume ls -q)
+7e690cf276e90b498e34140cf92383219c3c31068f66605738aa5f5dd1202dd5
+8f7f5de636346db9815f0df07416389cf8e803c9b87a2e2cb69f15481128be33
+e3e706bd44757f0abb083d65ea1b6c002a1173678769d672a127cf3749e4f8f1
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ docker network rm $(docker network ls -q)
+Error response from daemon: bridge is a pre-defined network and cannot be removed
+Error response from daemon: host is a pre-defined network and cannot be removed
+Error response from daemon: none is a pre-defined network and cannot be removed
+3fd7dca8f10e
+exit status 1
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ ls
+data  docker-compose.yml  Dockerfile  pgadmin4.tar  php_app.tar  postgres_db.tar  src
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ docker load -i php_app.tar
+Loaded image: php:8.2-apache
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ docker load -i postgres_db.tar
+484afb5aae5b: Loading layer [==================================================>]  12.29kB/12.29kB
+48ed3a36f169: Loading layer [==================================================>]  16.13MB/16.13MB
+5c29cffa3e7d: Loading layer [==================================================>]   3.65MB/3.65MB
+82fb95bc6cc0: Loading layer [==================================================>]  26.18MB/26.18MB
+9536fed5aec2: Loading layer [==================================================>]  3.481MB/3.481MB
+ef70bb1c7039: Loading layer [==================================================>]  1.536kB/1.536kB
+cc5866088cdf: Loading layer [==================================================>]   7.68kB/7.68kB
+2322a55cf3b5: Loading layer [=====>                                             ]  37.32MB/327.3MB
+2322a55cf3b5: Loading layer [==================================================>]  327.3MB/327.3MB
+5e547a44a55c: Loading layer [==================================================>]  69.63kB/69.63kB
+2465693762ad: Loading layer [==================================================>]  2.048kB/2.048kB
+9a9c8d681ae5: Loading layer [==================================================>]  3.072kB/3.072kB
+aac98fae13c8: Loading layer [==================================================>]  20.99kB/20.99kB
+490972c407cd: Loading layer [==================================================>]  3.072kB/3.072kB
+Loaded image: postgres:16
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ docker load -i pgadmin4.tar
+
+256f393e029f: Loading layer [==================================================>]  8.607MB/8.607MB
+2e3d6e644f9d: Loading layer [==================================================>]  387.2MB/387.2MB
+1e7016d75376: Loading layer [==================================================>]   10.9MB/10.9MB
+46b404722ed9: Loading layer [==================================================>]  435.7kB/435.7kB
+2ba0100b0257: Loading layer [==================================================>]  721.4kB/721.4kB
+d79ba59624ad: Loading layer [==================================================>]  152.1kB/152.1kB
+957898b3709e: Loading layer [==================================================>]  4.096kB/4.096kB
+c1f3d4cdb658: Loading layer [==================================================>]  1.536kB/1.536kB
+e37c6d4c8a66: Loading layer [==================================================>]   41.6MB/41.6MB
+a05ae6f35142: Loading layer [==================================================>]  41.37MB/41.37MB
+5083f38d97ea: Loading layer [==================================================>]   2.56kB/2.56kB
+16709b4c8d73: Loading layer [==================================================>]  3.584kB/3.584kB
+eb8549bb1681: Loading layer [==================================================>]  10.75kB/10.75kB
+3408d37370ae: Loading layer [==================================================>]  3.584kB/3.584kB
+d23e8dd0034b: Loading layer [==================================================>]  63.67MB/63.67MB
+Loaded image: dpage/pgadmin4:latest
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ docker compose up -d --build
+WARN[0000] /home/china/Desktop/projeto_php_postgres/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+[+] Building 2.1s (9/9) FINISHED
+ => [internal] load local bake definitions                                                                         0.0s
+ => => reading from stdin 575B                                                                                     0.0s
+ => [internal] load build definition from Dockerfile                                                               0.0s
+ => => transferring dockerfile: 249B                                                                               0.0s
+ => [internal] load metadata for docker.io/library/php:8.2-apache                                                  0.0s
+ => [internal] load .dockerignore                                                                                  0.0s
+ => => transferring context: 2B                                                                                    0.0s
+ => [1/3] FROM docker.io/library/php:8.2-apache                                                                    0.0s
+ => CACHED [2/3] RUN apt-get update && apt-get install -y libpq-dev     && docker-php-ext-install pdo_pgsql        0.0s
+ => CACHED [3/3] RUN a2enmod rewrite                                                                               0.0s
+ => exporting to image                                                                                             0.0s
+ => => exporting layers                                                                                            0.0s
+ => => writing image sha256:fefc5f640be630a78e3760bb41a47cdbca2e35a698f82bf57df3aa8f062db1b1                       0.0s
+ => => naming to docker.io/library/projeto_php_postgres-php-apache                                                 0.0s
+ => resolving provenance for metadata file                                                                         0.0s
+[+] Running 2/3
+ ✔ projeto_php_postgres-php-apache       Built                                                                                                                                                                                          0.0s
+[+] Running 5/5eto_php_postgres_default  Created
+ ✔ projeto_php_postgres-php-apache       Built                                                                                                                                                                                          0.0s
+ ✔ Network projeto_php_postgres_default  Created                                                                                                                                                                                        0.3s
+ ✔ Container postgres_db                 Started                                                                                                                                                                                       11.9s
+ ✔ Container pgadmin4                    Started                                                                                                                                                                                        0.6s
+ ✔ Container php_app                     Started                                                                                                                                                                                        0.7s
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ docker ps
+CONTAINER ID   IMAGE                             COMMAND                  CREATED          STATUS          PORTS                                              NAMES
+a435645b0631   projeto_php_postgres-php-apache   "docker-php-entrypoi…"   11 seconds ago   Up 10 seconds   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp            php_app
+e4d8443b042f   dpage/pgadmin4                    "/entrypoint.sh"         11 seconds ago   Up 10 seconds   443/tcp, 0.0.0.0:5050->80/tcp, [::]:5050->80/tcp   pgadmin4
+98695ca170a3   postgres:16                       "docker-entrypoint.s…"   22 seconds ago   Up 10 seconds   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp        postgres_db
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_php_postgres]
+└─$ docker exec -it postgres_db psql -U admin -d meu_banco
+psql (16.10 (Debian 16.10-1.pgdg13+1))
+Type "help" for help.
+
+meu_banco=# ^C
+meu_banco=# exit
+
+┌──(china㉿Dragao-Vermelho)-[~/Desktop/projeto_p
