@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: meu_banco
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  php-apache:
+    image: php:8.2-apache
+    container_name: php_app
+    restart: always
+    depends_on:
+      - db
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - "8080:80"
+    environment:
+      DB_HOST: db
+      DB_NAME: meu_banco
+      DB_USER: admin
+      DB_PASS: 123456
+  build:
+    context: .
+    dockerfile: Dockerfile
+    pgadmin:
+
+    image: dpage/pgadmin4
+    container_name: pgadmin4
+    restart: always
+    depends_on:
+      - db
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@local.com
+      PGADMIN_DEFAULT_PASSWORD: 123456
+    ports:
+      - "5050:80"
+
