@@ -17,7 +17,7 @@ projeto_php_postgres/
 ├─ src/
 │  └─ index.php
 ├─ docker-compose.yml
-├─ Dockerfile
+└─ Dockerfile
 ```
 
 > Opcional: se você tiver as imagens `.tar`, elas podem ser carregadas antes de subir os containers:
