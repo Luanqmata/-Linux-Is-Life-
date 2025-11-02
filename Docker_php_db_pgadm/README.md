@@ -1,118 +1,99 @@
 README do projeto PHP + PostgreSQL + pgAdmin Docker
 
+Este arquivo explica como rodar o projeto localmente usando Docker.
+
 # Projeto PHP + PostgreSQL + pgAdmin Docker
 
-Este projeto contém um ambiente Docker completo com:
+## Estrutura da pasta
 
-* PHP 8.2 + Apache
-* PostgreSQL 16
-* pgAdmin 4 (opcional, interface web para gerenciar o banco)
+```
+projeto_php_postgres/
+├─ src/
+│  └─ index.php
+├─ docker-compose.yml
+├─ php_app.tar
+├─ postgres_db.tar
+└─ pgadmin4.tar
+```
 
-Todos os containers são definidos no arquivo `docker-compose.yml` e o código PHP está na pasta `src/`.
+## Passos para rodar o projeto
 
----
-
-## Pré-requisitos
-
-1. Docker instalado: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
-2. Docker Compose (já incluído no Docker Desktop ou via plugin no Linux)
-3. Git (opcional, para clonar o projeto)
-
----
-
-## Passo 1: Clonar o projeto
-
-No terminal do Linux ou WSL:
+1️⃣ Navegar até a pasta do projeto:
 
 ```bash
-git clone https://github.com/Luanqmata/-Linux-Is-Life-.git
-cd -path-to-repo/Docker_php_db_pgadm
+cd ~/Desktop/projeto_php_postgres
 ```
 
-O diretório deve conter:
+2️⃣ Carregar as imagens `.tar` no Docker:
 
+```bash
+docker load -i php_app.tar
+docker load -i postgres_db.tar
+docker load -i pgadmin4.tar
 ```
-src/
-docker-compose.yml
-```
 
----
-
-## Passo 2: Rodar os containers
-
-No diretório do projeto, execute:
+3️⃣ Subir os containers:
 
 ```bash
 docker compose up -d
 ```
 
-Explicação:
+> Se houver erro de validação, rode os containers individualmente com `docker run`.
 
-* `-d` → roda em segundo plano (detached mode)
-* O Docker Compose vai baixar automaticamente as imagens necessárias do Docker Hub:
+4️⃣ Verificar se os containers estão rodando:
 
-  * `php:8.2-apache`
-  * `postgres:16`
-  * `dpage/pgadmin4`
+```bash
+docker ps
+```
 
----
+5️⃣ Acessar os serviços:
 
-## Passo 3: Acessar os serviços
+* PHP App: [http://localhost:8080](http://localhost:8080)
+* PostgreSQL: localhost:5432
 
-* **PHP App:** [http://localhost:8080](http://localhost:8080)
+```bash
+docker exec -it postgres_db psql -U admin -d meu_banco
+```
 
-  * Deve mostrar a página `index.php` do projeto.
+* pgAdmin: [http://localhost:5050](http://localhost:5050) (usuário: `admin@local.com`, senha: `123456`)
 
-* **PostgreSQL:** localhost:5432
+6️⃣ Ver logs dos containers:
 
-  * Usuário: `admin`
-  * Senha: `123456`
-  * Banco: `meu_banco`
+```bash
+docker logs php_app
+docker logs postgres_db
+docker logs pgadmin4
+```
 
-* **pgAdmin 4:** [http://localhost:5050](http://localhost:5050)
+7️⃣ Parar e remover containers:
 
-  * Usuário: `admin@local.com`
-  * Senha: `123456`
-
-> Use pgAdmin apenas se quiser gerenciar o banco via interface web.
-
----
-
-## Passo 4: Parar os containers
-
-Para parar os containers sem removê-los:
+* Apenas parar:
 
 ```bash
 docker compose stop
 ```
 
-Para parar e remover os containers:
+* Parar e remover:
 
 ```bash
 docker compose down
 ```
 
-Se quiser **remover volumes do PostgreSQL** também:
+* Remover containers + volumes:
 
 ```bash
 docker compose down -v
 ```
 
----
-
 ## Observações
 
-* O código PHP está na pasta `src/`.
-* Alterações feitas em `src/` aparecem automaticamente no container PHP, graças ao volume definido no `docker-compose.yml`.
-* Se algum container não subir, rode `docker logs nome_do_container` para verificar o erro.
-* Para reconstruir a imagem PHP caso tenha instalado novas extensões, execute:
+* Alterações em `src/` aparecem automaticamente no container PHP.
+* Para reconstruir a imagem PHP com novas extensões:
 
 ```bash
 docker compose up -d --build
 ```
 
----
-
 ## Suporte
 
-Qualquer dúvida, abra uma issue no repositório ou entre em contato com o autor.
+Para dúvidas, abra uma issue no repositório ou contate o autor.
